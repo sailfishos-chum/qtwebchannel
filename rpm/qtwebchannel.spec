@@ -10,7 +10,7 @@ License: LGPLv2 with exceptions or GPLv3 with exceptions
 Url: http://qt.io
 Source0: %{name}-%{version}.tar.bz2
 
-%global __requires_exclude %{?__requires_exclude:%__requires_exclude|}^libQt5*$
+%global __requires_exclude %{?__requires_exclude:%__requires_exclude|}^libQt5.*$
 %global __provides_exclude_from %{?__provides_exclude_from:%__provides_exclude_from|}^%{_opt_qt5_libdir}
 
 BuildRequires: make
