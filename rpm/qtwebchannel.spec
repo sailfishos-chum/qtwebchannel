@@ -1,8 +1,8 @@
-%global qt_version 5.15.10
+%global qt_version 5.15.14
 
 Summary: Qt5 - WebChannel component
 Name: opt-qt5-qtwebchannel
-Version: 5.15.10+kde3
+Version: 5.15.14+kde3
 Release: 1%{?dist}
 
 # See LICENSE.GPL LICENSE.LGPL LGPL_EXCEPTION.txt, for details
